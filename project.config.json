@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx11c30576aa343184",
-	"projectname": "demoxxx",
+	"projectname": "demo",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
