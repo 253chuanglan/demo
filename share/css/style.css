@@ -1,0 +1,7 @@
+h1{
+	font-size: 60px;
+}
+slides>slide .slide-wrapper{
+	max-width: 1160px;
+	margin-top: -80px;
+}

@@ -1,0 +1,22 @@
+<import src="/pages/movie/movie-grid/movie-grid-template.wxml" />
+<view class="container">
+  <view class="session-poster session-poster-spacing">
+    <image class="poster" src="{{avatar}}" data-poster-url="{{avatar}}"></image>
+  </view>
+  <view class="summary-session">
+    <view class="celebrity-summary">
+      <text class="name">{{celebrity.name}}</text>
+      <text class="country">出生地：{{celebrity.bornPlace}}</text>
+    </view>
+  </view>
+  <view class="works-session">
+    <text class="title">代表作品</text>
+    <view class="works-session-content">
+      <scroll-view class="works-scroll" scroll-x="true">
+        <block wx:for="{{celebrity.movie}}" wx:for-item="item" wx:key="item">
+          <template is="movie-grid-template" data="{{...item}}" />
+        </block>
+      </scroll-view>
+    </view>
+  </view>
+</view>

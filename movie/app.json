@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/movie/movie-index/movie-index",
+    "pages/movie/movie-grid/movie-grid-template",
+    "pages/movie/movie-more/movie-more",
+    "pages/movie/movie-detail/movie-detail",
+    "pages/movie/movie-detail/celebrity/celebrity"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
